@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+.col-sm-10{
+    display: flex;
+    flex-direction:row;
+}
+.room , .mnm, .conn{
+    margin-left: 10%;
+}
+.fonm{
+    width: 400px;
+}
+input{
+    margin-top: 20px;
+}
+.mnm{
+    margin-top: 20px;
+    width: 70%;
+}
+.form-select{
+    width: 350px;
+}
+.form-control{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 400px;
+}
+#validationTooltip ,#phonenuber2{
+    margin-top: 20px;
+    width: 300px;
+}
+#validationTooltip04{
+    border: 1px solid;
+    width: 200px;
+    margin-top: 20px;
+}
+label{
+    padding-top: 20px;
+}
+#price{
+    flex-direction: row;
+    margin-top: 20px;
+    width: 600px;
+}
+#inputPassword2{
+    margin: 0px;
+}
+#but{
+    margin-top: 5px;
+}
