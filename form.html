@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./form.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </head>
+<body>
+    <div class="container">
+        <h2>complete correct information</h2>
+            <div class="col-sm-10">
+              <input type="text" class="fonm form-control-lg" placeholder="Name of the hotel" id="nameofhotel">
+            </div>
+              <select class="form-select" id="validationTooltip" required>
+            <option selected disabled value="">level of hotel</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+              </select>
+              <div class="phonenu">
+              <div class="col-sm-10">
+                <input type="text" class="form-control form-control-md" placeholder="phone Number" id="nameofhotel">
+                <input type="text" class="form-control form-control-md" placeholder="Additional phone Numbe" id="promoters">
+                <input type="text" class="form-control form-control-md" placeholder="Additional phone Numbe" id="promoters">
+              </div>
+            </div>
+              <div class="col-auto">
+                <input type="text" class="form-control" id="phonenuber2"  placeholder="website of Hotel">
+              </div>
+          <label for="row g-3 needs-validation">locatoin of hotel:</label>
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <select class="form-select" id="validationTooltip04" required>
+                    <option selected disabled value="">country</option>
+                    <option>Eritrea</option>
+                    <option>Ethiopia</option>
+                    <option>Djibouti</option>
+                    <option>Sudan</option>
+                    <option>Somali</option>
+                      </select>
+                </div>
+                <div class="col">
+                  <select class="form-select" id="validationTooltip04" required>
+                    <option selected disabled value="">region...</option>
+                    <option>Addis Ababa (Capital City)</option>
+                    <option>Dire Dawa (Chartered City)</option>
+                    <option>Tigray</option>
+                    <option>Afar</option>
+                    <option>Amhara</option>
+                    <option>Oromia</option>
+                    <option>Somalia</option>
+                    <option>Benishangul-Gumuz</option>
+                    <option>SNNPE</option>
+                    <option>Harari</option>
+                    <option>Gambela</option>
+                   </select>
+                </div>
+                <div class="col">
+                  <select class="form-select" id="validationTooltip04" required>
+                    <option selected disabled value="">city</option>
+                  <option>...</option>
+                </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="wrte about hotel" rows="3"></textarea>
+          </div>
+          </form>
+          </div>
+    </div>
+</body>
+</html>
